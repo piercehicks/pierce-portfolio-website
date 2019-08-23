@@ -1,1 +1,0 @@
-.downArrow { cursor: pointer; }
