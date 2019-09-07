@@ -113,13 +113,24 @@ About Page
     border-radius: 50%;
 }
 
-#abtPgSkills {
-    display: inline-flex;
+.resumeButton {
+  padding-top: 1rem;
+  display: flex;
+  justify-content: center;
+}
 
+#abtPgSkills {
+    padding-top: 1rem;
+    display: flex;
+    justify-content: center;
 }
 
 #abtPgSkills li {
     list-style-type: none;
+}
+
+.feSkills {
+  padding-right: 1rem;
 }
 
 .emaiLink{
@@ -127,7 +138,7 @@ About Page
 }
 
 /*******
-Portfolio Page
+Projects Page
 ***********/
 
 #projects {
