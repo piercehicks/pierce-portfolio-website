@@ -115,26 +115,20 @@ About Page
 
 .resumeButton {
   padding-top: 1rem;
-  display: flex;
+  display: block;
   justify-content: center;
 }
 
 #abtPgSkills {
     padding-top: 1rem;
-    display: flex;
+    display: block;
     justify-content: center;
 }
 
 #abtPgSkills li {
     list-style-type: none;
-}
-
-.feSkills {
-  padding-right: 1rem;
-}
-
-.emaiLink{
-  color: ;
+    display: block;
+    justify-content: center;
 }
 
 /*******
@@ -147,24 +141,6 @@ Projects Page
   justify-content: center;
 }
 
-#projects {
-    display: flex;
-    justify-content: center;
-
+.additional-projects {
+  padding-top: 15px;
 }
-
-
-.card {
-    display: flex;
-  /*  width: 100%; */
-  /*  height: 15vw; */
-
-
-}
-
-
- /* .card :hover {
-    background-color: #666;
-    opacity: 0.4;
-
-} */
